@@ -1,0 +1,22 @@
+body{
+    background-color: red;
+    position: relative;
+    
+}
+.star {
+    margin: 10rem 33rem;
+    position: absolute;
+    width: 22rem;
+    height: 22rem;
+    background: yellow;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+@media (max-width: 500px) {
+    .star {
+        margin: 9rem auto; 
+        width: 12rem; 
+        height: 12rem; 
+        background: yellow; 
+    }
+}
